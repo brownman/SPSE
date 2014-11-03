@@ -1,2 +1,8 @@
 language: python
-script: echo hello spse
+before_install:
+  - chmod u+x start.sh
+  
+script: 
+  - ./start.sh
+
+
