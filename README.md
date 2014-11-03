@@ -13,4 +13,4 @@ to teach is much more:
 - motivating
 
 
-![SUMMARY](SUMMARY.md)
+[SUMMARY](SUMMARY.md)
