@@ -4,7 +4,7 @@ what are these creatures:
 - object
 - reference
 
-### Q: assignment of variable to variable.
+### Q: assignment of one variable to another variable
 #### maybe: copies content ? reference ? generate pointer to a pointer ?
 ```python
 var2=0
