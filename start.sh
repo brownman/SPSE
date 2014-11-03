@@ -13,7 +13,7 @@ run(){
 local file
   
 while read line;do
-  file="$line""
+  file="$line"
   test -f $file && ( python $file )
 done <  $file_list 
 }
