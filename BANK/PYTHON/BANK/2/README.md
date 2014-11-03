@@ -1,9 +1,5 @@
-Variables
+what are those creatures ?
 ----
-
-
-WTF ?
------
 - variable
 - object
 - reference
