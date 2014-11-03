@@ -3,7 +3,7 @@ python:
   - "2.7"
   
 before_install:
-  - chmod u+x start.sh
+ - chmod u+x start.sh
 
 script: 
  - bash -c ./start.sh
