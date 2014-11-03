@@ -2,24 +2,6 @@ Lesson 2
 ----
 - variable is a name which store a reference to an allocated memory location
 
-questions
------
-```python
-var2=0
-var1=var2
-var2=1
-#does var1 is changed ? 
-print var1
-#no, because he didn't point to var2 !
-
-
-
-
-```
-
-IMPORTANT NOTES:
-----
-- assignment var to var only copy the reference - doesn't create a new one !
 
 
 
@@ -29,6 +11,18 @@ types
 - variable
 - object
 - reference
+
+Q: assignment var to var
+-----
+```python
+var2=0
+var1=var2
+var2=1
+#does var1 is changed ? 
+print var1
+#no, because he didn't point to var2 !
+```
+A: assignment var to var only copy the reference - doesn't create a new one !
 
 
 question
