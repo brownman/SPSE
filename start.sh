@@ -2,9 +2,11 @@
 
 
 run(){
+local file
+  
 while read line;do
-  echo $line
-  eval "$line"
+  file=BANK/$line
+  python $file
 done < <( cat tasks.txt )
 }
 
