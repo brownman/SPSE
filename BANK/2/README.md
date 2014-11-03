@@ -1,6 +1,6 @@
 Lesson 2
 ----
-- data types
+- variable is a name which store a reference to an allocated memory location
 
 
 types
