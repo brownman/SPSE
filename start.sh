@@ -13,8 +13,8 @@ run(){
 local file
   
 while read line;do
-  file=BANK/$line
-  python $file
+  file="$line""
+  test -f $file && ( python $file )
 done < <( $file_list )
 }
 
