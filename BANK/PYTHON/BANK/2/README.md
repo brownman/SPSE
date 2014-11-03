@@ -1,4 +1,4 @@
-what are those creatures ?
+what are these creatures:
 ----
 - variable
 - object
