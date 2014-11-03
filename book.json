@@ -20,15 +20,31 @@
     "extension": null,
 
     // Plugins list, can contain "-name" for removing default plugins
-    "plugins": [],
-
+    "plugins": ["autocover"],
+ 
     // Global configuration for plugins
     "pluginsConfig": {
         "fontSettings": {
             "theme": "sepia", "night" or "white",
             "family": "serif" or "sans",
             "size": 1 to 4
-        }
+        },
+                "autocover":{
+    "title": "My Book",
+    "author": "Author",
+    "font": {
+        "size": null,
+        "family": "Impact",
+        "color": '#FFF'
+    },
+    "size": {
+        "w": 1800,
+        "h": 2360
+    },
+    "background": {
+        "color": '#09F'
+    }
+}
     },
 
     // Variables for templating
