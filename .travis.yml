@@ -1,17 +1,10 @@
 language: python
-before_install:
-  - chmod u+x start.sh
-  
-
-
-language: python
 python:
   - "2.7"
-# command to install dependencies
-#install: 
-  #- "pip install -r requirements.txt"
-# command to run tests
+  
+before_install:
+  - chmod u+x start.sh
+
 script: 
-  #- nosetests
   - bash -c start.sh
 
