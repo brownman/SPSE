@@ -10,8 +10,8 @@
     "generator": "site",
 
     // Book title and description (defaults are extracted from the README)
-    "title": null,
-    "description": null,
+    "title": python riddles,
+    "description": my take on security-tube: SPSE course,
 
     // For ebook format, the extension to use for generation (default is detected from output extension)
     // "epub", "pdf", "mobi"
@@ -38,7 +38,7 @@
     "links": {
         // Custom links at top of sidebar
         "sidebar": {
-            "Custom link name": "https://customlink.com"
+            "Custom link name": "https://github.com/brownman"
         },
 
         // Sharing links
