@@ -1,6 +1,6 @@
 Lesson 2
 ----
-- variable is a name which store a reference to an allocated memory location
+
 
 WTF ?
 -----
@@ -34,3 +34,4 @@ hex(id(name))
 #another way to print the memory location pointed by our variable:
 name.__repr___
 ```
+A: variable consist of a name and a memory reference - so variable is not a string or a number but an address !
