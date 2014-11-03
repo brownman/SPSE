@@ -1,7 +1,9 @@
-[![Build Status](https://travis-ci.org/brownman/SPSE.svg?branch=master)](https://travis-ci.org/brownman/SPSE)
 
+Teach:
+=========
+My Take On Python (SPSE course)
 
-SPSE
+SPSE ?
 ====
 security tube - python scripting expert course
 
