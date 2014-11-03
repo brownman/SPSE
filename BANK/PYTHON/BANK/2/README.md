@@ -4,9 +4,8 @@ what are these creatures:
 - object
 - reference
 
-Q: assignment of variable to variable.
-maybe: copies content ? reference ? generate pointer to a pointer ?
------
+### Q: assignment of variable to variable.
+#### maybe: copies content ? reference ? generate pointer to a pointer ?
 ```python
 var2=0
 var1=var2
@@ -18,8 +17,7 @@ print var1
 A: assignment var to var only copy the reference - doesn't create a new one !
 
 
-Q: what is the data type of an already signed variable ?
------
+### Q: what is the data type of an already signed variable ?
 ```python
 #example:
 #define a variable and make it point to a memory location which holds a string 
