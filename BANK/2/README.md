@@ -1,6 +1,6 @@
 Lesson 2
 ----
-- object types
+- data types
 
 
 types
@@ -12,6 +12,5 @@ types
 
 question
 ----
-- what is a string ?
-- what is the type of an already signed variable ?
+- what is the data type of an already signed variable ?
 
