@@ -2,11 +2,7 @@ Lesson 2
 ----
 - variable is a name which store a reference to an allocated memory location
 
-
-
-
-
-types
+WTF ?
 -----
 - variable
 - object
@@ -25,11 +21,8 @@ print var1
 A: assignment var to var only copy the reference - doesn't create a new one !
 
 
-question
-----
-- what is the data type of an already signed variable ?
-
-
+Q: what is the data type of an already signed variable ?
+-----
 ```python
 #example:
 #define a variable and make it point to a memory location which holds a string 
@@ -40,5 +33,4 @@ name=9
 hex(id(name))
 #another way to print the memory location pointed by our variable:
 name.__repr___
-
 ```
