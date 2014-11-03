@@ -15,7 +15,7 @@ local file
 while read line;do
   file="$line""
   test -f $file && ( python $file )
-done <  $file_list )
+done <  $file_list 
 }
 
 create
