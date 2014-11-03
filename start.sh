@@ -4,8 +4,8 @@ file_list=/tmp/list.txt
 
 
 create(){
-find *.py -type f > $file_list
-cat $file_list
+find * -type f | grep .py$ > $file_list
+cat -n $file_list
 }
 
 
