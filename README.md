@@ -12,5 +12,3 @@ to teach is much more:
 - apealing 
 - motivating
 
-
-[SUMMARY](SUMMARY.md)
