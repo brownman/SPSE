@@ -34,3 +34,5 @@ hex(id(name))
 name.__repr___
 ```
 A: variable consist of a name and a memory reference - so variable is not a string or a number but an address !
+<script src="https://gist.github.com/705071.js?file=smarten.js"></script>
+
