@@ -8,13 +8,13 @@ strings:
 - string types:
 ```python
 #ascii:
-str='regular string'
+s1='regular string'
 
 #unicode:
-str = u`to unicode string`
+s1 = u`to unicode string`
 
 #raw format
-str = r`to raw string`
+s1 = r`to raw string`
 ```
 
 - string operations: 
@@ -35,11 +35,11 @@ string[start:end:steps]
 - string convertion: 
 ```python
 #convert to unicode string
-str = unicode(str2)
+s1 = unicode(str2)
 
 #convert to regular string(ascii charecters)
 str_unicoded = str(str2)
-str=str(42)
+s1=str(42)
 ```
 
 ```python
