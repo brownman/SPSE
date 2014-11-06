@@ -95,3 +95,13 @@ tuple1 = tuple( list1 )
 #unpacking a tuple:
 var1 , var2 = ('my secret', 42 )
 ```
+
+sets
+----
+- sets are unorderd lists
+- allowed operations: 
+```python
+a|b #union
+a&b #intersection
+a-b #difference
+```
