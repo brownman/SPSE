@@ -1,7 +1,7 @@
 Data types
 ====
 
-string
+strings:
 ---
 - string operations: find, replace, split
 - strings are immutable objects: 
@@ -15,3 +15,12 @@ print name[0]
 name[0] = 'x' #errr
 
 ```
+
+lists:
+-------
+- x
+
+numbers:
+------
+- x
+
