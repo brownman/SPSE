@@ -11,10 +11,10 @@ strings:
 str='regular string'
 
 #unicode:
-str = u`some string`
+str = u`to unicode string`
 
 #raw format
-str = r`some string`
+str = r`to raw string`
 ```
 
 - string operations: 
