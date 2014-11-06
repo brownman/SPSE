@@ -3,9 +3,10 @@ Data types
 
 strings:
 ---
-
+- string methods: find, replace(actually creates another string object), split
 
 - string types:
+
 ```python
 #ascii:
 s1='regular string'
@@ -18,6 +19,7 @@ s1 = r`to raw string`
 ```
 
 - string operations: 
+
 ```python
 #concatination:
 s1 + s2
@@ -28,9 +30,11 @@ buffer = "A" * 20
 #slicing
 string[start:end:steps]
 ```
-- string methods: find, replace(actually creates another string object), split
+
+
  
 - string convertion: 
+
 ```python
 #convert to unicode string
 s1 = unicode(str2)
@@ -63,6 +67,7 @@ x**y
 lists:
 -------
 - lists are heterogeneous collection of objects, they can be nested
+
 ```python
 list1 = [ 1, 2 , [ 3, 4, 'nested list' ] , "a" ]
 
@@ -84,7 +89,7 @@ Tuple:
 - basicly are immutable lists
 - allow sequence unpacking:
 - syntax:  using () instead of [] 
-- 
+
 ```python
 list1=[1,2,'a']
 
@@ -100,6 +105,7 @@ sets
 - sets are unorderd lists
 - convertion allowed: list(set1) , set(list1)
 - allowed operations: 
+- 
 ```python
 a|b #union
 a&b #intersection
@@ -110,6 +116,7 @@ dictionary
 ------
 - set of unordered key-value pairs
 - methods: keys(), values(), items(), get('some key')
+- 
 ```python
 dict1={} # empty dictionary 
 dict1['contry']=972 #item gets appended to the dictionary
