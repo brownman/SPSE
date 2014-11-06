@@ -1,7 +1,9 @@
 Loops
 ----
 
+
 - for loop:
+
 ```python
 
 list1=[object1 , object2, object2]
@@ -25,6 +27,7 @@ range(10) #(0, .. 9)
 range(1,10) #(1 .. 10)
 range(1,10,2) #(1, 3, ..)
 ```
+
 
 - while loop
 
