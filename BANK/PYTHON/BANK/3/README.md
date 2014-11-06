@@ -113,5 +113,10 @@ dictionary
 ```python
 dict1={} # empty dictionary 
 dict1['contry']=972
-dict1['address']='first street on the left'
+#OR
+dict1(  country=972 , ... ) #note: no parenthesis
+dict1={'country':972}
+##
+
+
 ```
