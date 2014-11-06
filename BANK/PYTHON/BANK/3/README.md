@@ -65,6 +65,6 @@ lists:
 -------
 - lists are heterogeneous collection of objects, they can be nested
 ```python
-list1 = [ 1, 2 , [3,4] , "a" ]
+list1 = [ 1, 2 , [ 3, 4, 'nested list' ] , "a" ]
 
 ```
