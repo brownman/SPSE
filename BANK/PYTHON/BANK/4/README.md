@@ -21,7 +21,10 @@ for x,y in [(name,'my_name'),(number,'my_number')] :
 ```
 for x in range(1,10,2): #will increment x+=2 
     print x
-    
+
+range(10) #(0, .. 9)
+range(1,10) #(1 .. 10)
+range(1,10,2) #(1, 3, ..)
 ```
 
 - while loop
