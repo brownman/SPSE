@@ -84,7 +84,7 @@ del list1[0]
 
 ```
 
-Tuple:
+Tuples:
 -----
 - basicly are immutable lists
 - allow sequence unpacking:
@@ -100,7 +100,7 @@ tuple1 = tuple( list1 )
 var1 , var2 = ('my secret', 42 )
 ```
 
-sets
+sets:
 ----
 - sets are unorderd lists
 - convertion allowed: list(set1) , set(list1)
@@ -112,7 +112,7 @@ a&b #intersection
 a-b #difference
 ```
 
-dictionary
+dictionaries:
 ------
 - set of unordered key-value pairs
 - methods: keys(), values(), items(), get('some key')
