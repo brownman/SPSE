@@ -3,7 +3,28 @@ Data types
 
 strings:
 ---
-- string operations: find, replace, split
+- string convertion: 
+```python
+str = unicode(str2)
+str_unicoded = str(str2)
+```
+
+- string types:
+```python
+#ascii:
+str='regular string
+'
+#unicode:
+str = u`some string`
+
+#raw format
+str = r`some string`
+```
+
+- string operations: 
+```python
+```
+- string methods: find, replace, split
 - strings are immutable objects: 
 - example:
 
