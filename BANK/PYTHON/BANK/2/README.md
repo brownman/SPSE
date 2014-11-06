@@ -1,4 +1,4 @@
-Variables + Data types
+Variables
 ====
 
 
