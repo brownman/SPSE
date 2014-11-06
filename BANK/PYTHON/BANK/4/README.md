@@ -13,12 +13,11 @@ for item in list1 :
 for x,y in [(name,'my_name'),(number,'my_number')] :
   print x
   print y
-
-
 ```
 
 - emulating C style for loop: ( by using range )
-```
+
+```python
 for x in range(1,10,2): #will increment x+=2 
     print x
 
@@ -28,7 +27,8 @@ range(1,10,2) #(1, 3, ..)
 ```
 
 - while loop
-```
+
+```python
 while age > 10
     age =  int(   raw_input "some question ?" )
     if age > 10 :
