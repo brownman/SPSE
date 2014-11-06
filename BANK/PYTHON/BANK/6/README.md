@@ -1,4 +1,4 @@
-Classes
+Class
 ----
 - global class
 - instance of a class
@@ -14,6 +14,7 @@ class Monkey :
   def show :
     print self.name
 ``` 
+
 -  Extend class Monkey with class: Person 
 -  Add attribute: family
 
