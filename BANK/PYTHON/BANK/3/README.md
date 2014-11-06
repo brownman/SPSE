@@ -79,3 +79,19 @@ list1.insert(0, 'put me first')
 del list1[0] 
 
 ```
+
+Tuple:
+-----
+- basicly are immutable lists
+- allow sequence unpacking:
+- syntax:  using () instead of [] 
+- 
+```python
+list1=[1,2,'a']
+
+#convert from list:
+tuple1 = tuple( list1 )
+
+#unpacking a tuple:
+var1 , var2 = ('my secret', 42 )
+```
