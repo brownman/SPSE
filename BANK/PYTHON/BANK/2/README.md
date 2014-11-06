@@ -10,6 +10,7 @@ Variables + Data types
 ```
 A: variable is a name which reference to a memory object which assosiated to a data-type.
 
+----
 
 ### Q: assignment of one variable to another variable
 #### maybe: copies content ? reference ? generate pointer to a pointer ?
@@ -23,6 +24,7 @@ print var1
 ```
 A: assignment var to var only copy the reference - doesn't create a new one !
 
+-----
 
 ### Q: what is the data type of an already signed variable ?
 ```python
