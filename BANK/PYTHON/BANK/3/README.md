@@ -28,7 +28,7 @@ buffer = "A" * 20
 #slicing
 string[start:end:steps]
 ```
-- string methods: find, replace, split
+- string methods: find, replace(actually creates another string object), split
 - strings are immutable objects: 
 - example:
 
