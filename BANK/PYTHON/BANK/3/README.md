@@ -3,11 +3,7 @@ Data types
 
 strings:
 ---
-- string convertion: 
-```python
-str = unicode(str2)
-str_unicoded = str(str2)
-```
+
 
 - string types:
 ```python
@@ -23,10 +19,28 @@ str = r`some string`
 
 - string operations: 
 ```python
+#concatination:
+s1 + s2
+
+#repeat
+buffer = "A" * 20
+
+#slicing
+string[start:end:steps]
 ```
 - string methods: find, replace, split
 - strings are immutable objects: 
 - example:
+
+- string convertion: 
+```python
+#convert to unicode string
+str = unicode(str2)
+
+#convert to regular string(ascii charecters)
+str_unicoded = str(str2)
+str=str(42)
+```
 
 ```python
 name='someone'
