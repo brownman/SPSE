@@ -16,3 +16,23 @@ for x,y in [(name,'my_name'),(number,'my_number')] :
 
 
 ```
+
+- emulating C style for loop: ( by using range )
+```
+for x in range(1,10,2): #will increment x+=2 
+    print x
+    
+```
+
+- while loop
+```
+while age > 10
+    age =  int(   raw_input "some question ?" )
+    if age > 10 :
+        print "your age is > 10 "
+    else :
+        print "your age is <= 10"
+        
+```
+
+
