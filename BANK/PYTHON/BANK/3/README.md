@@ -51,11 +51,20 @@ name[0] = 'x' #errr
 
 ```
 
-lists:
--------
-- x
-
 numbers:
 ------
-- x
+ 
+```python
+#x to the power y
+x**y
+```
 
+
+
+lists:
+-------
+- lists are heterogeneous collection of objects, they can be nested
+```python
+list1 = [ 1, 2 , [3,4] , "a" ]
+
+```
