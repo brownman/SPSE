@@ -116,7 +116,7 @@ dictionaries:
 ------
 - set of unordered key-value pairs
 - methods: keys(), values(), items(), get('some key')
-- 
+
 ```python
 dict1={} # empty dictionary 
 dict1['contry']=972 #item gets appended to the dictionary
@@ -125,16 +125,15 @@ dict1(  country=972 , ... ) #note: no parenthesis
 dict1={'country':972}
 ##
 dict1.has_key('country') #true
-OR
+#OR
 'country' in dict1 #true
 #fetch valude:
 dict1.get('country') #972
 
 #remove an item:
 del dict1['country'] #1 item
-or 
+#OR 
 dict1.clear() #ALL items
-
 ```
 
 getting help
