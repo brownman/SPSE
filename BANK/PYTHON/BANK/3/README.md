@@ -99,9 +99,15 @@ var1 , var2 = ('my secret', 42 )
 sets
 ----
 - sets are unorderd lists
+- convertion allowed: list(set1) , set(list1)
 - allowed operations: 
 ```python
 a|b #union
 a&b #intersection
 a-b #difference
 ```
+
+dictionary
+------
+- set of unordered key-value pairs
+- 
