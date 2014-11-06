@@ -129,3 +129,8 @@ or
 dict1.clear() #ALL items
 
 ```
+
+getting help
+----
+- dir(some_object) #output is the list of methods available for this object: [method1, method2 .. etc]
+- help( some_object.method1 ) #output: help for method1 (...)
