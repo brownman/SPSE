@@ -110,4 +110,8 @@ a-b #difference
 dictionary
 ------
 - set of unordered key-value pairs
-- 
+```python
+dict1={} # empty dictionary 
+dict1['contry']=972
+dict1['address']='first street on the left'
+```
