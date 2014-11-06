@@ -117,6 +117,8 @@ dict1['contry']=972 #item gets appended to the dictionary
 dict1(  country=972 , ... ) #note: no parenthesis
 dict1={'country':972}
 ##
-
+dict1.has_key('country') #true
+OR
+'country' in dict1 #true
 
 ```
