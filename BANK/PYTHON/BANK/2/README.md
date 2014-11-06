@@ -3,10 +3,11 @@ Variables + Data types
 
 
 ### Q: what are these creatures ?
+```
 - variable
 - object
 - reference
-
+```
 A: variable is a name which reference to a memory object which assosiated to a data-type.
 
 
