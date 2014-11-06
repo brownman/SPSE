@@ -1,6 +1,7 @@
 Modules
 ----
 - load other files's code by using keywords: import+from
+
 ```python
 #import a class
 from Module1 import Class2
