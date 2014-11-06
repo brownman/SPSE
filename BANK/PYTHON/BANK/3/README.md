@@ -67,4 +67,15 @@ lists:
 ```python
 list1 = [ 1, 2 , [ 3, 4, 'nested list' ] , "a" ]
 
+len( list1[0] ) #err
+#Function: len() 
+len( list1[2] )  #1 nested object
+#Methods: reverse(), pop( the rightest item), extend([]) ..
+list1.reverse()
+
+
+list1.insert(0, 'put me first')
+#Operators: del , + (to concatinate 2 lists)
+del list1[0] 
+
 ```
