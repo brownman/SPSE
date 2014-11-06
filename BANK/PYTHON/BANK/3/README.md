@@ -112,7 +112,7 @@ dictionary
 - set of unordered key-value pairs
 ```python
 dict1={} # empty dictionary 
-dict1['contry']=972
+dict1['contry']=972 #item gets appended to the dictionary
 #OR
 dict1(  country=972 , ... ) #note: no parenthesis
 dict1={'country':972}
