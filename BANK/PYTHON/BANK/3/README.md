@@ -109,6 +109,7 @@ a-b #difference
 dictionary
 ------
 - set of unordered key-value pairs
+- methods: keys(), values(), items(), get('some key')
 ```python
 dict1={} # empty dictionary 
 dict1['contry']=972 #item gets appended to the dictionary
@@ -121,5 +122,10 @@ OR
 'country' in dict1 #true
 #fetch valude:
 dict1.get('country') #972
+
+#remove an item:
+del dict1['country'] #1 item
+or 
+dict1.clear() #ALL items
 
 ```
