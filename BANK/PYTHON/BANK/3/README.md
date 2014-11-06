@@ -8,8 +8,8 @@ strings:
 - string types:
 ```python
 #ascii:
-str='regular string
-'
+str='regular string'
+
 #unicode:
 str = u`some string`
 
