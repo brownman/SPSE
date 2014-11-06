@@ -29,9 +29,7 @@ buffer = "A" * 20
 string[start:end:steps]
 ```
 - string methods: find, replace(actually creates another string object), split
-- strings are immutable objects: 
-- example:
-
+ 
 - string convertion: 
 ```python
 #convert to unicode string
@@ -41,6 +39,7 @@ s1 = unicode(str2)
 str_unicoded = str(str2)
 s1=str(42)
 ```
+- strings are immutable objects: 
 
 ```python
 name='someone'
@@ -120,5 +119,7 @@ dict1={'country':972}
 dict1.has_key('country') #true
 OR
 'country' in dict1 #true
+#fetch valude:
+dict1.get('country') #972
 
 ```
