@@ -1,13 +1,16 @@
-lesson 5
-====
-- using functions
+Functions
+-----
+- default values
+- trigger functions
+- import modules
+- getting use input from the command line
 
+```python
+import sys
 
-syntax
----
-- functions
-- range
-- for loop
-
-
-[functions](https://github.com/gregmalcolm/python_koans/blob/master/python2/koans/about_decorating_with_functions.py)
+def func1(arg1, age='13'):
+  print 'hello ' + arg1
+  print 'age ' + age
+  
+func1(sys.argv[1])
+```
