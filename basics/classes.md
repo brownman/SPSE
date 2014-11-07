@@ -15,8 +15,11 @@ class Monkey :
     print self.name
 ``` 
 
+---
+
 -  Extend class Monkey with class: Person 
 -  Add attribute: family
+
 
 ```python
 class Person(Monkey) : 
