@@ -18,7 +18,7 @@ $ .tables
 #show TABLE1's scheme: 
 $.schema TABLE1
 # output: 
-$ CREATE TABLE TABLE1(field1 TEXT, field2 INT ,..field3 KEY, ..)
+# CREATE TABLE TABLE1(field1 TEXT, field2 INT ,..field3 KEY, ..)
 
 # print something from TABLE1 
 $ select * from TABLE1;
