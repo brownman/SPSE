@@ -8,7 +8,7 @@ $ touch python_demo1.py
 ```
 
 
--  __init__.py
+-  \_\_init\_\_.py
 
 ```python
 
