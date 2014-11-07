@@ -1,7 +1,6 @@
 # Summary
 
-* [Essentials]
-    * [intro](BANK/PYTHON/README.md)
+* [Essentials](BANK/PYTHON/README.md)
     * [variables](BANK/PYTHON/BANK/2/README.md)
     * [data types](BANK/PYTHON/BANK/3/README.md)
     * [loops](BANK/PYTHON/BANK/4/README.md)
@@ -12,5 +11,5 @@
     * [packages](BANK/PYTHON/BANK/10/README.md)
     * [Example: use sqlite3](BANK/PYTHON/BANK/9/README.md)
     * 
-* [System Programming]
+* [System Programming](BANK/PYTHON/README.md)
    * [intro](BANK/PYTHON/README.md)
