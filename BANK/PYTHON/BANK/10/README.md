@@ -2,8 +2,8 @@ packages
 ----
 ```bash
 #bash
-mkdir package1
-touch package1/__init__.py
+$ mkdir package1
+$ touch package1/__init__.py
 ```
 
 ```python
@@ -13,7 +13,7 @@ from module1 import Class1 , Class2
 
 ```bash
 #bash
-touch python_demo1.py
+$ touch python_demo1.py
 ```
 
 ```python
