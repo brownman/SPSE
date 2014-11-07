@@ -2,8 +2,6 @@ language: python
 
 python:
     - 2.7
-    - 3.2
-    - 3.3
 
 script:
     - PYTHON_VER=`python -c 'import sys; print(sys.version_info[0])'`
@@ -17,8 +15,8 @@ script:
 #   koans you've passed? Then comment out one of the above "contemplate_koans"
 #   lines above!
 #
-notifications:
-  email: true
+#notifications:
+#  email: true
 
 # Some other koans (see runner/sensei.py or "ls koans" to see the light):
 #
