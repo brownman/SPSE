@@ -8,4 +8,7 @@
 * [functions](BANK/PYTHON/BANK/5/README.md)
 * [class](BANK/PYTHON/BANK/6/README.md)
 * [modules](BANK/PYTHON/BANK/7/README.md)
+* [x](BANK/PYTHON/BANK/8/README.md)
+* [+ sqlite3](BANK/PYTHON/BANK/9/README.md)
+* [packages](BANK/PYTHON/BANK/10/README.md)
 
