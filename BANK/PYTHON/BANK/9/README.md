@@ -1,9 +1,13 @@
 python sqlite example
 -----
+
+
 ```bash
 find . name *.db
 sqlite3 /system/../some_table.db
 ```
+
+
 ```sqlite3
 show its tables:
 .tables 
@@ -16,7 +20,6 @@ CREATE TABLE TABLE1(field1 TEXT, field2 INT ,..field3 KEY, ..)
 
 ; print something from TABLE1
 select * from TABLE1;
-
 ```
 
 ```python
