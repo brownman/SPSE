@@ -8,14 +8,14 @@ $ touch python_demo1.py
 ```
 
 
-- content of __init__.py:
+-  __init__.py
 
 ```python
 
 from module1 import Class1 , Class2 
 ```
 
-- #content of python_demo1.py
+- python_demo1.py
 
 ```python
 #HERE GOES MAGIC:
