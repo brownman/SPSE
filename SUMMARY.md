@@ -4,7 +4,7 @@
     * [data types](basics/data_types.md)
     * [loops](basics/loops.md)
     * [functions](basics/functions.md)
-    * [class](basics/classes.md)
+    * [classes](basics/classes.md)
     * [modules](basics/modules.md)
     * [exceptions](basics/exceptions.md)
     * [packages](basics/packages.md)
