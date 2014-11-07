@@ -10,17 +10,17 @@ sqlite3 /system/../some_table.db
 
 - sqlite stuff:
 
-```sql
-show its tables:
+```sqlite3
+/* show its tables: */
 .tables 
-; output: TABLE1, table2
+/* ; output: TABLE1, table2 */
 
 show TABLE1's scheme: 
 .schema TABLE1
-; output:
+/* ; output: */
 CREATE TABLE TABLE1(field1 TEXT, field2 INT ,..field3 KEY, ..)
 
-; print something from TABLE1
+/* ; print something from TABLE1 */
 select * from TABLE1;
 ```
 
