@@ -1,7 +1,9 @@
 packages
 ----
+
+- shell stuff:
+
 ```bash
-#bash
 $ mkdir package1
 $ touch package1/__init__.py
 $ touch python_demo1.py
