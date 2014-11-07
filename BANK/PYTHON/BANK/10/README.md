@@ -23,6 +23,7 @@ from module1 import Class1 , Class2
 #HERE GOES MAGIC:
 import package1 
 
+#generate an instance of our class:
 instance1 = package1.Class1('my name','my family name')
 instance1.show() #hopefuly prints our name and family name.
 ```
