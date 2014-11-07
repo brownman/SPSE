@@ -1,8 +1,7 @@
-Language Essentials
+1. Language Essentials
 ====
 
-
-index:
+topics:
 -----
 - variables, data types
 - loops , functions
