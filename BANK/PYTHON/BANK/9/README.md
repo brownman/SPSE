@@ -2,6 +2,8 @@ python sqlite example
 -----
 ```bash
 find . name *.db
+```
+```sqlite3
 sqlite3 /system/../some_table.db
 #show its tables:
 #>>.tables 
