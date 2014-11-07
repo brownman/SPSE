@@ -10,7 +10,7 @@ sqlite3 /system/../some_table.db
 
 - sqlite stuff:
 
-```sqlite
+```sql
 show its tables:
 .tables 
 ; output: TABLE1, table2
