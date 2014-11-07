@@ -1,4 +1,11 @@
 Language Essentials
------
+====
 
-- how to 
+
+index:
+-----
+- variables, data types
+- loops , functions
+- class , objects
+- modules , packages
+- sqlite example
