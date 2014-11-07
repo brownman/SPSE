@@ -30,8 +30,8 @@
             "size": 1 to 4
         },
                 "autocover":{
-    "title": "My Book",
-    "author": "Author",
+    "title": "Python Riddles",
+    "author": "Brownman",
     "font": {
         "size": null,
         "family": "Impact",
