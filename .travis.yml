@@ -13,9 +13,10 @@ branches:
 
   
 before_install:
- - chmod u+x start.sh
+ - ls -R 
+ #chmod u+x start.sh
 
 script: 
- - bash -c ./start.sh
+ #- bash -c ./start.sh
 
 
