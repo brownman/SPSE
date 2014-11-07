@@ -8,6 +8,7 @@ find . name *.db
 sqlite3 /system/../some_table.db
 ```
 
+---
 
 - sqlite stuff:
 
@@ -23,7 +24,7 @@ $.schema TABLE1
 # print something from TABLE1 
 $ select * from TABLE1;
 ```
-
+---
 
 - python stuff:
 
