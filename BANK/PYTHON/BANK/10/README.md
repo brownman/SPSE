@@ -1,7 +1,7 @@
 packages
 ----
 ```bash
-
+#bash
 mkdir package1
 touch package1/__init__.py
 ```
@@ -12,6 +12,7 @@ from module1 import Class1 , Class2
 ```
 
 ```bash
+#bash
 touch python_demo1.py
 ```
 
