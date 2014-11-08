@@ -20,7 +20,7 @@ class AboutStrings(Koan):
 
     def test_triple_single_quotes_work_too(self):
         string = '''Bonjour tout le monde!'''
-        self.assertEqual(__, isinstance(string, basestring))
+        self.assertEqual(True, isinstance(string, basestring))
 
     def test_raw_strings_are_also_strings(self):
         string = r"Konnichi wa, world!"
@@ -32,7 +32,7 @@ class AboutStrings(Koan):
 
     def test_use_double_quotes_to_create_strings_with_single_quotes(self):
         string = "Don't"
-        self.assertEqual(__, string)
+        self.assertEqual(True, string)
 
     def test_use_backslash_for_escaping_quotes_in_strings(self):
         a = "He said, \"Don't\""
@@ -54,11 +54,11 @@ world!
     def test_triple_quoted_strings_need_less_escaping(self):
         a = "Hello \"world\"."
         b = """Hello "world"."""
-        self.assertEqual(__, (a == b))
+        self.assertEqual(True, (a == b))
 
     def test_escaping_quotes_at_the_end_of_triple_quoted_string(self):
         string = """Hello "world\""""
-        self.assertEqual(__, string)
+        self.assertEqual("Hello ", string)
 
     def test_plus_concatenates_strings(self):
         string = "Hello, " + "world"
