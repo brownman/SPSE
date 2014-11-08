@@ -92,4 +92,4 @@ world!
         string = "\n"
         self.assertEqual('\n', string)
         self.assertEqual("""\n""", string)
-        self.assertEqual(20, len(string))
+        self.assertEqual(1, len(string))
