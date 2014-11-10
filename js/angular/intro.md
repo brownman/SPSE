@@ -9,8 +9,10 @@ what is Api-driven development ?
 
 How Angular make the page loading faster ? 
 -------
-- use Ajax for requesting spacific data
-- prefer asking for data: .json and build the page on the client side.
+- why build the html page on the server ?
+- use Ajax for requesting .json data
+- build the html on the client side !
+
 
 How Angular helps structuring the application?
 ----
