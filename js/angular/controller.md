@@ -6,8 +6,8 @@ what is the controller role ?
 ------
 - date scoping: binding between  spacific data  and spacific html element.
 
-how a module organize it code(js) ?
+how a module organize its code ?
 ---
-- by defining controllers.
+- defining controllers.
 
 
