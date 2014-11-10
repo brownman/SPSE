@@ -9,6 +9,7 @@ what is Api-driven development ?
 
 How Angular make the page loading faster ? 
 -------
-- Use Ajax requests for requesting only spacific page's part.
-- Render views on the client side: request for a naked data(.json) rather then a data covered with html tags(aka: web-page).
+- use Ajax for requesting spacific data
+- prefer asking for data: .json and build the page on the client side.
+
 
