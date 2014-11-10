@@ -5,7 +5,7 @@
 
 Why ?
 ----
-#### it is much easier to teach others then to learn alone !!!
+#### because it is much easier to teach others then to learn alone !!!
  
 
 
