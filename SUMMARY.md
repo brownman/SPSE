@@ -4,6 +4,8 @@
        * [variables](js/basics/variables.md)
    *  [angular](js/angular/sources.md)
        * [intro](js/angular/intro.md)
+   *  [MEAN.js](js/mean/sources.md)
+       * [intro](js/mean/intro.md)
 * [Python](python/basics/README.md)
    * [Basics](python/basics/README.md)
        * [variables](python/basics/variables.md)
