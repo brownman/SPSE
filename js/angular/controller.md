@@ -8,6 +8,7 @@ what is the controller role ?
 
 how a module organize its code ?
 ---
-- defining controllers.
+- define controllers
+- delegate functionality to the controllers.
 
 
