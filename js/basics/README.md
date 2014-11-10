@@ -1,1 +1,1 @@
-[GOTO: The Javascript Gitbook](http://gitbookio.gitbooks.io/javascript/content/)
+[Javascript On Gitbook](http://gitbookio.gitbooks.io/javascript/content/)
