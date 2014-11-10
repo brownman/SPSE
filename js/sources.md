@@ -22,6 +22,6 @@ Angular.js
 Node.js + Express.js
 ----
 
-- [another gitbook 1](http://www.anotheruiguy.com/ux-design-dev/_book/)
+- [ux-design-dev](http://www.anotheruiguy.com/ux-design-dev/_book/)
 
  
