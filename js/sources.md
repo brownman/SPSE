@@ -1,7 +1,7 @@
 sources
 ===
 
-javascript
+Javascript
 ----
 
 - [dofactory](http://www.dofactory.com/javascript/design-patterns)
@@ -11,7 +11,7 @@ javascript
 
 
 
- angular
+Angular.js
 ------
 
 - [w3m-school](http://www.w3schools.com/angular/default.asp)
@@ -19,7 +19,7 @@ javascript
 
 
 
-node.js + express.js
+Node.js + Express.js
 ----
 
 - [another gitbook 1](http://www.anotheruiguy.com/ux-design-dev/_book/)
