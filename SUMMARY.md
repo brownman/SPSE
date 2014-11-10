@@ -4,6 +4,7 @@
    *  [Angular.js](js/angular/README.md)
        * [motivation](js/angular/motivation.md)
        * [intro](js/angular/intro.md)
+       * [controller](js/angular/controller.md)
    *  [MEAN.io](js/mean/README.md)
        * [intro](js/mean/intro.md)
 * [Python](python/sources.md)
