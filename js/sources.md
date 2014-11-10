@@ -8,10 +8,12 @@ plain javascript
 - [carldanley](https://carldanley.com/javascript-design-patterns/)
 - [addyosmani](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 
+
  angular
 ------
 - [w3m-school](http://www.w3schools.com/angular/default.asp)
 - [code-school](http://campus.codeschool.com/courses/shaping-up-with-angular-js/)
+
 
 node.js + express.js
 ----
