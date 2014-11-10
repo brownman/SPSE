@@ -18,5 +18,5 @@ Why ?
 
 ------
 
-- [Repo](https://github.com/brownman/ofer_asks)
+- [home](https://github.com/brownman/ofer_asks)
 - [gh-pages](http://brownman.github.io/ofer_asks)
