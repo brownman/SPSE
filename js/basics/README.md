@@ -1,1 +1,1 @@
-[Javascript On Gitbook](http://gitbookio.gitbooks.io/javascript/content/)
+[Javascript Gitbook](http://gitbookio.gitbooks.io/javascript/content/)
