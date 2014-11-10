@@ -1,7 +1,6 @@
 # Summary
 * [javascript](js/sources.md)
    * [Basics](js/basics/README.md)
-       * [intro](js/basics/intro.md)
    *  [Angular.js](js/angular/README.md)
        * [motivation](js/angular/motivations.md)
        * [intro](js/angular/intro.md)
