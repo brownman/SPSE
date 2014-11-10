@@ -7,7 +7,7 @@ plain javascript
 - [shichuan](http://shichuan.github.io/javascript-patterns/)
 - [carldanley](https://carldanley.com/javascript-design-patterns/)
 - [addyosmani](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
-- 
+
  angular
 ------
 - [w3m-school](http://www.w3schools.com/angular/default.asp)
