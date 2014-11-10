@@ -1,7 +1,7 @@
 # Summary
 * [javascript](js/sources.md)
    * [Basics](js/basics/README.md)
-       * [intro](js/basics/variables.md)
+       * [intro](js/basics/intro.md)
    *  [Angular.js](js/angular/README.md)
        * [intro](js/angular/intro.md)
    *  [MEAN.io](js/mean/README.md)
