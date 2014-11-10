@@ -3,7 +3,7 @@
    * [Basics](js/basics/README.md)
        * [intro](js/basics/intro.md)
    *  [Angular.js](js/angular/README.md)
-       * [motivation](js/angular/motivation.md)
+       * [motivation](js/angular/motivations.md)
        * [intro](js/angular/intro.md)
    *  [MEAN.io](js/mean/README.md)
        * [intro](js/mean/intro.md)
