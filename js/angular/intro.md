@@ -12,4 +12,7 @@ How Angular make the page loading faster ?
 - use Ajax for requesting spacific data
 - prefer asking for data: .json and build the page on the client side.
 
+How Angular helps structuring the application?
+----
+- Modules: A modules describe its dependencies -> load a dependency only if module is loaded.
 
