@@ -2,7 +2,7 @@
 =====
 
 
-what is the controller role ?
+what is the controller's role ?
 ------
 - scoping: binding between  spacific data and a spacific html element.
 
