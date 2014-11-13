@@ -17,4 +17,4 @@ questions:
 
 api reference
 ----
-- [form example](https://docs.angularjs.org/api/ng/directive/form)
+- [/api/ng/directive/form](https://docs.angularjs.org/api/ng/directive/form)
