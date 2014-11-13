@@ -12,3 +12,6 @@ notes:
 questions:
 ---
 - form validation: html5  VS angular  
+
+
+- [form example](https://docs.angularjs.org/api/ng/directive/form)
