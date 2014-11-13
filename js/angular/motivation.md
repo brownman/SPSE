@@ -5,4 +5,5 @@ Motivation:
 why Angular ?
 ------
 - Easy to create a fast(Responsive) interface.
-- built-in testing support
+- built with testing in mind.
+- expressive html - named tags makes markup readable 
