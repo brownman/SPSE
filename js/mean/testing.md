@@ -5,10 +5,10 @@ Testing
 questions:
 ----
 
-- **Q: how to test the mean's server component ?** 
+- **Q: how to test the Mean's server component ?** 
 - A: using express tests
 
-- **Q: how to test the mean's client component ?** 
+- **Q: how to test the Mean's client component ?** 
 - A: using angular tests
 
 
