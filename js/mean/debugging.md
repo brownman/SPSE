@@ -8,7 +8,7 @@ Client-side: Angular
 
 - **using:** [batarang](https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk?hl=en) chrome extension
 
-Questions:
+questions:
 ----
 - how to figure out the Angular modules dependencies ?
 - which Angular models belong to which scope ?
