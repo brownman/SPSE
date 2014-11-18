@@ -4,11 +4,11 @@ Testing
 questions:
 ----
 
-  **Q: how to test the Mean's server component ?** 
-  A: using tests for **Express** application
+ **Q: how to test the Mean's server component ?** 
+ A: using tests for **Express** application
 
-  **Q: how to test the Mean's client component ?** 
-  A: using tests for **Angular** application
+ **Q: how to test the Mean's client component ?** 
+ A: using tests for **Angular** application
 
 
 Tools
