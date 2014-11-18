@@ -23,7 +23,7 @@ Server testing:
 Client testing:
 ------
 - **Angular cli-tool:** using Karma
-- **Angular testing:** using Jasmine for assertion
+- **Angular testing:** using Jasmine for assertions
 
 
 installation:
