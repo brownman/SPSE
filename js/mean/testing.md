@@ -15,8 +15,10 @@ questions:
 
 Server testing:
 -----
-- testing the express component
+- **controller:** using SuperTest for HTTP assertions
+- **models:** using Mocha for model assertions
+
 
 Client testing:
 ------
-- x
+- **Angular testing:** using Jasmine
