@@ -56,8 +56,8 @@ The server's Model
 ----
 - **Mission:** testing model operations
 - **Assume:** 
-- Model:  Article
-- Action: Create and save a new Article
+* Model:  Article
+* Action: Create and save a new Article
 
 
 - Edit: app/tests/**article.server.modle.tests.js**
