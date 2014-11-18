@@ -25,3 +25,14 @@ Client testing:
 - **Angular cli-tool:** using Karma
 - **Angular testing:** using Jasmine for assertion
 
+
+configuration:
+---
+- package.json:
+
+```javascript
+"DevDependencies": {
+"should": "SOME_VERSION",
+"supertest": "SOME_VERSION"
+}
+```
