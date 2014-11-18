@@ -1,7 +1,6 @@
 Testing
 ====
 
-
 questions:
 ----
 
@@ -49,7 +48,7 @@ db: 'mongodb://localhost/mean-book-test'
 }
 ```
 
-**mean.io components:** The server's Model
+Testing The server's Model
 ----
  **Q:** how to validate the saving of a new article ?
 
