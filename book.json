@@ -10,8 +10,8 @@
     "generator": "site",
 
     // Book title and description (defaults are extracted from the README)
-    "title": python riddles,
-    "description": my take on security-tube: SPSE course,
+    "title": 'Ofer Asks',
+    "description": 'riddles and answers',
 
     // For ebook format, the extension to use for generation (default is detected from output extension)
     // "epub", "pdf", "mobi"
@@ -30,7 +30,7 @@
             "size": 1 to 4
         },
                 "autocover":{
-    "title": "Python Riddles",
+    "title": "Ofer Asks",
     "author": "Brownman",
     "font": {
         "size": null,
