@@ -6,7 +6,6 @@
        * [introduction](js/angular/intro.md)
        * [controller](js/angular/controller.md)
    *  [MEAN.io](js/mean/README.md)
-       * [introduction](js/mean/intro.md)
        * [debugging](js/mean/debugging.md)
        * [testing](js/mean/testing.md)
 * [Python](python/sources.md)
