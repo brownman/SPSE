@@ -55,6 +55,8 @@ db: 'mongodb://localhost/mean-book-test'
 
 - **Edit:** app/tests/article.server.modle.tests.coffee
 
+- **load required libraries:**
+
 ```coffeescript
 #load libraries we need for testing
 
