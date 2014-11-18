@@ -6,10 +6,10 @@ questions:
 ----
 
 - **Q: how to test the Mean's server component ?** 
-- A: using Express tests
+- A: using **Express** tests
 
 - **Q: how to test the Mean's client component ?** 
-- A: using Angular tests
+- A: using **Angular** tests
 
 
 
