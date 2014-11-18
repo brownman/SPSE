@@ -52,9 +52,9 @@ db: 'mongodb://localhost/mean-book-test'
 **mean.io components:** The server's Model
 ----
 **Mission:** try to validate the saving of a new article
+**How ?** Edit app/tests/article.server.modle.tests.coffee
 
 
-- **Edit:** app/tests/article.server.modle.tests.coffee
 - **load required libraries:**
 
 ```coffeescript
