@@ -14,14 +14,13 @@ Questions:
 
 
 
-
-**Using Grunt: node-inspector** to debug node.js application
+Debugging Node.js app:
 -----
-- automate tasks using grant's community-tasks
+- Using: Grunt task:  grunt-node-inspector
 
 questions:
 ----
-- how to add grant task for running node-inspector ?
+- how to setup grunt task for running node-inspector ?
 ```javascript
 //update npm packages:
 //package.json: add grunt-node-inspector
