@@ -44,9 +44,10 @@ node-inspector: {
 debug: {}
 }
 
-```
+//finally: don't forget to register the node-inspector task:
+grunt.loadNpmTasks('grunt-node-inspector');
 
-```javascript
-//adding grunt task for testing
-
+//locate the task in environment: X
+//for example: add that task -  to the test environment:
+grunt.registerTask('debug',[ .. , .. ]);
 ```
