@@ -10,8 +10,8 @@ questions:
 
 answers:
 ---
-##### how to test the server ?
+#####  Server testing:
 - x
 
-##### how to test the client ?
+##### Client testing:
 - x
