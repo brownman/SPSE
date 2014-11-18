@@ -48,3 +48,27 @@ module.exports = {
 db: 'mongod://localhost/mean-book-test'
 }
 ```
+
+testing the Express model
+----
+- **Mission:** testing model operations
+- **Assume:** 
+- Model:  Article
+- Action: Create and save a new Article
+
+- Edit: app/tests/**article.server.modle.tests.js**
+
+```javascript
+/* The Express Object:  */
+var app = require('../../server.js'),
+
+/* The assertion library: should*/
+    should = require('should'),
+    
+/* The database stuff */
+    mongoose = require('mongoose'),
+    user     = mongoose.model('User'),
+    article  = mongoose.model('Article');
+    
+//
+```
