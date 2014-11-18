@@ -1,7 +1,9 @@
-**how to debug:** a Mean application  ?
-----
+Debugging:
+=====
+- **how to debug:** a Mean application  ?
 
-Debugging Client-side: Angular
+
+Client-side: Angular
 ======
 
 - **using:** [batarang](https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk?hl=en) chrome extension
@@ -14,7 +16,7 @@ Questions:
 
 
 
-Debugging Server-side: Express
+Server-side: Express
 ======
 - Using: Grunt task:  grunt-node-inspector
 
