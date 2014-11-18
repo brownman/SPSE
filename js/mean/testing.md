@@ -87,7 +87,7 @@ describe 'Article Model testing goes here:', ->
     
     it 'create a new Article', ->
         article = Article.new()
-        article.user = user;
+        article.user = user
         article.title = 'blaaahh..'
         article.content = '... blah blah ...smilies... etc '
         article.save (err) ->
