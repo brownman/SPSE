@@ -53,8 +53,8 @@ db: 'mongodb://localhost/mean-book-test'
 ----
 **Mission:** try to validate the saving of a new article
 
-- **Edit:** app/tests/article.server.modle.tests.coffee
 
+- **Edit:** app/tests/article.server.modle.tests.coffee
 - **load required libraries:**
 
 ```coffeescript
