@@ -55,5 +55,8 @@ grunt.registerTask('debug',[ .. , .. ]);
 ```bash
 grunt debug
 ```
-- open the web-page on: 127.0.0.1:8080/debug?port=5858
+- open the web-page on:
+```
+127.0.0.1:8080/debug?port=5858
+```
 - DONE !
