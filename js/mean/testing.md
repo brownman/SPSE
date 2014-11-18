@@ -80,8 +80,6 @@ var app = require('../../server.js'),
 ```
 
 - **Add unit tests:**
-- [using testing blocks](http://coffeescriptcookbook.com/chapters/testing/testing_with_jasmine)
-
 
 ```coffeescript
 describe 'Article Model testing goes here:', ->
