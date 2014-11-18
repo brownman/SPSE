@@ -49,7 +49,7 @@ db: 'mongodb://localhost/mean-book-test'
 }
 ```
 
-The server's Model
+Testing the Express component
 ----
  **Q:** how to validate the  saving of a new article ?
 
@@ -96,4 +96,4 @@ describe 'Article Model testing goes here:', ->
 
 to be covered NEXT:
 -----
-- angular testing
+- Testing the Angular component
