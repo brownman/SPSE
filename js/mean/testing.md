@@ -49,10 +49,7 @@ db: 'mongodb://localhost/mean-book-test'
 }
 ```
 
-mean.io components:
-====
-
-The server's Model
+**mean.io components:** The server's Model
 ----
 - **Mission:** try to validate the saving of a new article
 
