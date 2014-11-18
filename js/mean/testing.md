@@ -59,7 +59,7 @@ The server's Model
 - Model:  Article
 - Action: Create and save a new Article
 
-- Edit: app/tests/**article.server.modle.tests.coffee**
+- **Edit:** app/tests/article.server.modle.tests.coffee
 
 ```coffeescript
 #load libraries we need for testing
