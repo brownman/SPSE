@@ -67,3 +67,11 @@ grunt debug
 ```
 
 - DONE !
+
+
+to be covered Next :
+-----
+- running a node app:
+- testing 
+- linting
+- watching for changes
