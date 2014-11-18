@@ -10,8 +10,8 @@
     "generator": "site",
 
     // Book title and description (defaults are extracted from the README)
-    "title": python riddles,
-    "description": my take on security-tube: SPSE course,
+    "title": ofer asks,
+    "description": ask first - and then.. figure it all out!,
 
     // For ebook format, the extension to use for generation (default is detected from output extension)
     // "epub", "pdf", "mobi"
