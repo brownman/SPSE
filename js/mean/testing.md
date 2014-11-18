@@ -42,7 +42,7 @@ configuration:
 -----
  **Q:** How to update the **development** environment ? 
  
- **A:** Edit config/env/development.js:
+ **A:** EDIT: config/env/development.js:
 
 ```javascript
 //create a dedicated DB for testing:
