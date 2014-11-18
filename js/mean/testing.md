@@ -26,7 +26,7 @@ Client testing:
 - **Angular testing:** using Jasmine for assertion
 
 
-configuration:
+installation:
 ---
 - package.json:
 
@@ -34,5 +34,16 @@ configuration:
 "DevDependencies": {
 "should": "SOME_VERSION",
 "supertest": "SOME_VERSION"
+}
+```
+
+configuration:
+-----
+- updating the **development** environment: 
+- edit config/env/development.js:
+```javascript
+//create a dedicated DB for testing:
+module.exports = {
+db: 'mongod://localhost/mean-book-test'
 }
 ```
