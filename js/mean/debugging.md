@@ -26,13 +26,23 @@ questions:
 //update npm packages:
 //package.json: add grunt-node-inspector
 
-devDependencies {
+devDependencies: {
 ..
 "grunt-node-inspector": "~0.1.5"
 ..
 }
 
-
+//update Gruntfile:
+//update these blocks(as instructed on the github package's page):
+nodemon: {
+..
+}
+concurrent: {
+..
+}
+node-inspector: {
+debug: {}
+}
 
 ```
 
