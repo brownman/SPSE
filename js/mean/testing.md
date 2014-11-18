@@ -6,10 +6,10 @@ questions:
 ----
 
 - **Q: how to test the Mean's server component ?** 
-- A: using express tests
+- A: using Express tests
 
 - **Q: how to test the Mean's client component ?** 
-- A: using angular tests
+- A: using Angular tests
 
 
 
@@ -54,8 +54,10 @@ db: 'mongodb://localhost/mean-book-test'
  **Q:** how to validate the saving of a new article ?
 
 
+
  **A:** edit: app/tests/article.server.modle.tests.coffee
-- **load required libraries:**
+ 
+ **load required libraries:**
 
 ```coffeescript
 #load libraries we need for testing
