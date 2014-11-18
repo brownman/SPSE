@@ -5,30 +5,30 @@ Testing
 questions:
 ----
 
-- **Q: how to test the Mean's server component ?** 
-- A: using **Express** tests
+  **Q: how to test the Mean's server component ?** 
+  A: using **Express** tests
 
-- **Q: how to test the Mean's client component ?** 
-- A: using **Angular** tests
+  **Q: how to test the Mean's client component ?** 
+  A: using **Angular** tests
 
 
 
 Server testing:
 -----
-- **node.js cli-tool:** using Mocha
-- **controller:** using SuperTest for HTTP assertions
-- **models:** using Should.js for model assertions
+  **node.js cli-tool:** using Mocha
+  **controller:** using SuperTest for HTTP assertions
+  **models:** using Should.js for model assertions
 
 
 Client testing:
 ------
-- **Angular cli-tool:** using Karma
-- **Angular testing:** using Jasmine for assertions
+  **Angular cli-tool:** using Karma
+  **Angular testing:** using Jasmine for assertions
 
 
 installation:
 ---
-- package.json:
+  package.json:
 
 ```javascript
 "DevDependencies": {
@@ -39,8 +39,8 @@ installation:
 
 configuration:
 -----
-- updating the **development** environment: 
-- edit config/env/development.js:
+  updating the **development** environment: 
+  edit config/env/development.js:
 
 ```javascript
 //create a dedicated DB for testing:
@@ -74,7 +74,7 @@ User = mongoose.model("User")
 Article = mongoose.model("Article")
 ```
 
-- **Add unit tests:**
+  **Add unit tests:**
 
 ```coffeescript
 describe 'Article Model testing goes here:', ->
