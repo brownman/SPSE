@@ -5,10 +5,10 @@ questions:
 ----
 
   **Q: how to test the Mean's server component ?** 
-  A: using **Express** tests
+  A: using tests for **Express** application
 
   **Q: how to test the Mean's client component ?** 
-  A: using **Angular** tests
+  A: using tests for **Angular** application
 
 
 Tools
@@ -93,3 +93,7 @@ describe 'Article Model testing goes here:', ->
         article.save (err) ->
              should.not.exist err
 ```
+
+to be covered NEXT:
+-----
+- angular testing
