@@ -15,13 +15,13 @@ questions:
 
 Server testing:
 -----
-- **node.js cli-tool** using Mocha
+- **node.js cli-tool:** using Mocha
 - **controller:** using SuperTest for HTTP assertions
 - **models:** using Should.js for model assertions
 
 
 Client testing:
 ------
-- **Angular cli-tool** using Karma
+- **Angular cli-tool:** using Karma
 - **Angular testing:** using Jasmine for assertion
 
