@@ -15,8 +15,8 @@ Questions:
 
 
 
-Using Grunt:
-----
+**Using Grunt: node-inspector** to debug node.js application
+-----
 - automate tasks using grant's community-tasks
 
 questions:
