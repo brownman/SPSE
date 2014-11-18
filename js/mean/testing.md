@@ -4,8 +4,12 @@ Testing
 
 questions:
 ----
-- **how to test the mean's server component ?** using express tests
-- **how to test the mean's client component ?** using angular tests
+
+- **Q: how to test the mean's server component ?** 
+- A: using express tests
+
+- **Q: how to test the mean's client component ?** 
+- A: using angular tests
 
 
 
