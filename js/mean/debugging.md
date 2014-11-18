@@ -23,6 +23,7 @@ Server-side: Express
 questions:
 ----
 - how to setup grunt task for running node-inspector ?
+
 ```javascript
 //update npm packages:
 //package.json: add grunt-node-inspector
@@ -52,12 +53,17 @@ grunt.loadNpmTasks('grunt-node-inspector');
 //for example: add that task -  to the test environment:
 grunt.registerTask('debug',[ .. , .. ]);
 ```
+
 - run this grunt task:
+
 ```bash
 grunt debug
 ```
+
 - open the web-page on:
-```
+
+```javascript
 127.0.0.1:8080/debug?port=5858
 ```
+
 - DONE !
