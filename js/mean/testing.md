@@ -45,7 +45,7 @@ configuration:
 ```javascript
 //create a dedicated DB for testing:
 module.exports = {
-db: 'mongod://localhost/mean-book-test'
+db: 'mongodb://localhost/mean-book-test'
 }
 ```
 
