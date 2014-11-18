@@ -11,13 +11,13 @@ questions:
   A: using **Angular** tests
 
 
-
+Tools
+=====
 Server testing:
 -----
 - **node.js cli-tool:** using Mocha
 - **controller:** using SuperTest for HTTP assertions
 - **models:** using Should.js for model assertions
-
 
 Client testing:
 ------
@@ -48,9 +48,9 @@ db: 'mongodb://localhost/mean-book-test'
 }
 ```
 
-Testing The server's Model
+The server's Model
 ----
- **Q:** how to validate the saving of a new article ?
+ **Q:** how to validate the  saving of a new article ?
 
 
 
