@@ -54,7 +54,7 @@ The server's Model
 
 
 
- **A:** edit: app/tests/article.server.modle.tests.coffee
+ **A:** EDIT: app/tests/article.server.modle.tests.coffee
  
  **load required libraries:**
 
