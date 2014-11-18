@@ -49,25 +49,26 @@ db: 'mongod://localhost/mean-book-test'
 }
 ```
 
-testing the Express model
+Testing components of mean.io:
+====
+
+The server's Model
 ----
 - **Mission:** testing model operations
 - **Assume:** 
 - Model:  Article
 - Action: Create and save a new Article
 
+
 - Edit: app/tests/**article.server.modle.tests.js**
 
-- Load required Objects:
-
 ```javascript
-//REQUIRED OBJECTS: 
 //load libraries we need for testing
 
 /* The Express Object:  */
 var app = require('../../server.js'),
 
-/* The assertion library: should*/
+/* The assertion library: Should*/
     should = require('should'),
     
 /* The database stuff */
