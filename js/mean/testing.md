@@ -41,6 +41,7 @@ configuration:
 -----
 - updating the **development** environment: 
 - edit config/env/development.js:
+
 ```javascript
 //create a dedicated DB for testing:
 module.exports = {
