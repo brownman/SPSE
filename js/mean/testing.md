@@ -58,7 +58,12 @@ testing the Express model
 
 - Edit: app/tests/**article.server.modle.tests.js**
 
+- Load required Objects:
+
 ```javascript
+//REQUIRED OBJECTS: 
+//load libraries we need for testing
+
 /* The Express Object:  */
 var app = require('../../server.js'),
 
@@ -67,8 +72,30 @@ var app = require('../../server.js'),
     
 /* The database stuff */
     mongoose = require('mongoose'),
-    user     = mongoose.model('User'),
-    article  = mongoose.model('Article');
+    User     = mongoose.model('User'),
+    Article  = mongoose.model('Article');
     
 //
+```
+
+- **Add unit tests:**
+- [using testing blocks](http://coffeescriptcookbook.com/chapters/testing/testing_with_jasmine)
+
+
+```coffeescript
+describe 'Article Model testing goes here:', ->
+    user    = null
+    article = null
+
+    # required fields for the Article Model:
+    beforeEach ->
+        user = new User({ name: 'x', family: 'y'})
+    
+    it 'create a new Article', ->
+        article = Article.new()
+        article.user = user;
+        article.title = 'blaaahh..'
+        article.content = '... blah blah ...smilies... etc '
+        article.save (err) ->
+             should.not.exist err
 ```
