@@ -17,7 +17,7 @@ Server testing:
 -----
 - **node.js cli-tool** using Mocha
 - **controller:** using SuperTest for HTTP assertions
-- **models:** using Mocha for model assertions
+- **models:** using Should.js for model assertions
 
 
 Client testing:
