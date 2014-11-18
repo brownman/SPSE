@@ -56,27 +56,24 @@ The server's Model
 ----
 - **Mission:** testing model operations
 - **Assume:** 
-* Model:  Article
-* Action: Create and save a new Article
+- Model:  Article
+- Action: Create and save a new Article
 
+- Edit: app/tests/**article.server.modle.tests.coffee**
 
-- Edit: app/tests/**article.server.modle.tests.js**
+```coffeescript
+#load libraries we need for testing
 
-```javascript
-//load libraries we need for testing
+# The Express Object:  
+app = require("../../server.js")
 
-/* The Express Object:  */
-var app = require('../../server.js'),
+# The assertion library: Should
+should = require("should")
 
-/* The assertion library: Should*/
-    should = require('should'),
-    
-/* The database stuff */
-    mongoose = require('mongoose'),
-    User     = mongoose.model('User'),
-    Article  = mongoose.model('Article');
-    
-//
+# The database stuff 
+mongoose = require("mongoose")
+User = mongoose.model("User")
+Article = mongoose.model("Article")
 ```
 
 - **Add unit tests:**
