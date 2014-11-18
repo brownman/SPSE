@@ -39,6 +39,7 @@ installation:
 configuration:
 -----
  **Q:** How to update the **development** environment ? 
+ 
  **A:** Edit config/env/development.js:
 
 ```javascript
