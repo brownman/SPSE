@@ -49,7 +49,7 @@ db: 'mongodb://localhost/mean-book-test'
 }
 ```
 
-Testing components of mean.io:
+mean.io components:
 ====
 
 The server's Model
