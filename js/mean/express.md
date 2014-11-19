@@ -27,7 +27,7 @@ process.on('uncaughtException', function (err) {
 
 **Application object:** configure the application
 
-**Q:** how to configure express for download an .html file ?  
+**Q:** is it possible to instruct Express to download index.html instead of viewing it  ?  
 
 ```javascript
  
