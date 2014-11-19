@@ -25,7 +25,7 @@ questions:
 
 ```javascript
 var connect = request('connect');
-/*ectivating the closure*/
+/* Activating the closure*/
 var app = connect();   
 
 var logger = function(req , res , next){
