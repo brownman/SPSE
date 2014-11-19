@@ -82,3 +82,33 @@ pupular middlewares:
 ----
 - Morgan: HTTP request logger 
 - Session: support for persistant sessions
+
+- handling request routing
+```javascript
+app.post('/', function(req, res){
+    res.send('this is a POST request');
+});
+
+//logic for function: hasName
+//----------------------------
+//check if the request has the param 'name': 
+req.param('name')
+//found?:  
+next()
+//not found? 
+res.send('what is your name ?')
+
+//logic for function: sayHallo
+//----------------------------
+req.send('hello ' + name);
+
+/*  the middlewares chain:  */
+app.get('/', hasName, sayHello);
+```
+- configure sessions
+- serving static files
+- rendering ejs views
+- configure the view system
+- env configuration files
+
+
