@@ -50,6 +50,10 @@ res.cookie(name, value, [options])
 //using the options parameter we can configure/set cookie properties,
 //such as: [ .. , maxAge: 5 ,  .. ] 
 
+res.send() 
+//used for non-streaming responses, 
+//do alot of background jobs, 
+//such as: responding with the proper cache headers
 ```
 
 **pupular Express middlewares:**
