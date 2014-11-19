@@ -83,7 +83,7 @@ pupular middlewares:
 - Morgan: HTTP request logger 
 - Session: support for persistant sessions
 
-**handling request routing: **
+**handling request routing:**
 
 ```javascript
 app.post('/', function(req, res){
