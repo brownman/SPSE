@@ -115,7 +115,7 @@ app.get('/', hasName, sayHello);
 
 **Q:** how to configure Express to respond to a http request: ( VERB:'get' , PATH:'/' )
 **Q:** what is the different between 'var app = express()' on the files: server.js , express.js
-**Q:** what will happend if express.js will include: require(./express) ?
+**Q:** what will happend if express.js will include: require('./express') ?
 
 A:  config/express.js
 
