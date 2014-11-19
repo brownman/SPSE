@@ -76,7 +76,7 @@ res.cookie(name, value, [options])
 
 
 
-pupular Express middlewares:
+pupular middlewares:
 ----
 - Morgan: HTTP request logger 
 - Session: support for persistant sessions
