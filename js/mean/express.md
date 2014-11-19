@@ -83,6 +83,10 @@ pupular middlewares:
 - Morgan: HTTP request logger 
 - Session: support for persistant sessions
 
+
+utilizing middlewares:
+-----
+
 **Q:** how to validate the user's name and then greet him ?
 
 A: handling request routing
