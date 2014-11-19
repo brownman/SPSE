@@ -29,8 +29,6 @@ process.on('uncaughtException', function (err) {
 
 **Q:** how to configure express for download an .html file ?  
 
-A: __?__
-
 ```javascript
  
 //
@@ -75,12 +73,10 @@ res.cookie(name, value, [options])
 ```
 
 **Q:** how to configure express to exit if an http response is 404 ?
-```javascript
-// __?__
-```
 
 
 
-**pupular Express middlewares:**
+pupular Express middlewares:
+----
 - Morgan: HTTP request logger 
 - Session: support for persistant sessions
