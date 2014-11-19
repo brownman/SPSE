@@ -10,11 +10,22 @@ A: supply a MVC structure for a Node.js application
 
 
 
+
 Express Objects:
 -----
+**Express process:**
+**Q:** how to exit the express application when an error occures ?
 
+```javascript
+process.on('uncaughtException', function (err) {
+  console.error((new Date).toUTCString() + ' uncaughtException:', err.message)
+  console.error(err.stack)
+  process.exit(1)
+})
+```
 
 **Application object:** configure the application
+**Q:** how to run set express to exit if http response is 404 ?
 
 ```javascript
 app.set(name, value)      //set an Environment variable
@@ -31,6 +42,8 @@ app.param([name], callback)
 
 **Request object:** 
 
+**Q:** how to query a JSON property ? 
+
 ```javascript
 //options:
 //+ req.query , req.params, req.body 
@@ -40,7 +53,10 @@ req.param(name) //it can be used to query a JSON object()
 req.cookies     //it can be used with the middleware: cookieParser() to retrieve cookies sent by a user-agent
 ```
 
+
 **Response object:** 
+
+**Q:** how to set a cookie property ? 
 
 ```javascript
 //options:
