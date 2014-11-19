@@ -1,7 +1,6 @@
 [Express](http://expressjs.com/)
 =====
-  [![Build Status][travis-image]][travis-url]
-  [![Test Coverage][coveralls-image]][coveralls-url]
+[![Build Status](https://travis-ci.org/strongloop/express.svg?branch=master)](https://travis-ci.org/strongloop/express)
 
 questions:
 ----
