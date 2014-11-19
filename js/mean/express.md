@@ -29,7 +29,7 @@ app.route(path).VERB()
 app.param([name], callback)               
 ```
 
-**Request object:**
+**Request object:** 
 
 ```javascript
 //options:
@@ -40,7 +40,7 @@ req.param(name) //it can be used to query a JSON object()
 req.cookies     //it can be used with the middleware: cookieParser() to retrieve cookies sent by a user-agent
 ```
 
-**Response object:**
+**Response object:** 
 
 ```javascript
 //options:
