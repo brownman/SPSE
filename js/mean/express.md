@@ -69,7 +69,7 @@ pupular middlewares:
 using middlewares:
 -----
 
-**Q:** how to validate the user's name and then greet him ?
+**Q:** how to validate the user name and then greet him ?
 
 A: solution using middlewares chaining:
 
