@@ -84,12 +84,12 @@ pupular middlewares:
 - Session: support for persistant sessions
 
 
-utilizing middlewares:
+using middlewares:
 -----
 
 **Q:** how to validate the user's name and then greet him ?
 
-A: handling request routing
+A: chaining middlewares:
 
 ```javascript
 app.post('/', function(req, res){
@@ -118,6 +118,8 @@ app.get('/', hasName, sayHello);
 **Q:** what is the different between 'var app = express()' on the files: server.js , express.js
 
 **Q:** what will happend if express.js will include: require('./express') ?
+
+----
 
 - config/express.js
 
@@ -154,6 +156,7 @@ app.get('/', index.render)
 //the config/express.js
 };
 ```
+----
 
 - configure sessions
 - serving static files
