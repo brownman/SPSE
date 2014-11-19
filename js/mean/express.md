@@ -140,7 +140,7 @@ module.exports = app;
 ```
  
 
-- /app/routes/index.server.routes.js
+- app/routes/index.server.routes.js
 
 ```javascript
 //app/routes/index.server.routes.js
