@@ -54,7 +54,6 @@ req.param(name) //it can be used to query a JSON object()
 //such as: [ .. , maxAge: 5 ,  .. ]
 res.cookie(name, value, [options]) 
 ```
- 
 
 **Q:** how to configure express to exit if an http response is 404 ?
 
@@ -78,21 +77,30 @@ app.post('/', function(req, res){
     res.send('this is a POST request');
 });
 
-//logic for function: hasName
+/* logic for function: hasName */
 //----------------------------
 //check if the request has the param 'name': 
-req.param('name')
-//found?:  
-next()
-//not found? 
-res.send('what is your name ?')
+var express = require('express');
 
-//logic for function: sayHallo
+var hasName = function(req, res, next){
+  if( req.param('name')   ){
+      next();
+  }
+  else {
+      res.send('what is your name ?')
+  }
+
+};
+
+var sayHello = function(){
+    req.send('hello ' + name);
+};
+
+/* logic for function: sayHallo */
 //----------------------------
-req.send('hello ' + name);
-
 /*  the middlewares chain:  */
 app.get('/', hasName, sayHello);
+app.listen(3000);
 ```
 
 ----
