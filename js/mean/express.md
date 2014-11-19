@@ -27,5 +27,29 @@ app.route(path).VERB()
 app.param([name], callback)               
 ```
 
-- **Request object:**
-- **Response object:**
+**Request object:**
+
+```javascript
+//options:
+//+ req.query , req.params, req.body 
+//+ req.host, req.ip, req.path
+//Example:
+req.param(name) //it can be used to query a JSON object()
+req.cookies     //it can be used with the middleware: cookieParser() to retrieve cookies sent by a user-agent
+```
+
+**Response object:**
+
+```javascript
+//options:
+//+ res.redirect , res.status, res.set , res.send , res.json , res.render
+//Example:
+res.cookie(name, value, [options]) 
+//using the options parameter we can configure/set cookie properties,
+//such as: [ .. , maxAge: 5 ,  .. ] 
+
+```
+
+** pupular Express middlewares: **
+- morgan: HTTP request logger 
+- Session: support for persistant sessions
