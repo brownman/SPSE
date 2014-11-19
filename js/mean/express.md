@@ -1,6 +1,7 @@
 [Express](http://expressjs.com/)
 =====
-
+  [![Build Status][travis-image]][travis-url]
+  [![Test Coverage][coveralls-image]][coveralls-url]
 
 questions:
 ----
