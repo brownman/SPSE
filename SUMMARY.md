@@ -9,7 +9,7 @@
        * [debugging](js/mean/debugging.md)
        * [testing](js/mean/testing.md)
        * [node.js](js/mean/node.md)
-       * [express.js](js/mean/express.md)
+       * [express](js/mean/express.md)
 * [Python](python/sources.md)
    * [Basics](python/basics/README.md)
        * [variables](python/basics/variables.md)
