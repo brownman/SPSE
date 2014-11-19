@@ -89,7 +89,7 @@ using middlewares:
 
 **Q:** how to validate the user's name and then greet him ?
 
-A: chaining middlewares:
+A: solution using middlewares chaining:
 
 ```javascript
 app.post('/', function(req, res){
