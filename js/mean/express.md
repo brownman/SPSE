@@ -83,7 +83,9 @@ pupular middlewares:
 - Morgan: HTTP request logger 
 - Session: support for persistant sessions
 
-**handling request routing:**
+**Q:** how to validate the user's name and then greet him ?
+
+A: handling request routing
 
 ```javascript
 app.post('/', function(req, res){
