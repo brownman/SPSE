@@ -31,33 +31,16 @@ process.on('uncaughtException', function (err) {
 
 **Q:** is it possible to instruct Express to download index.html instead of viewing it  ?  
 
-```javascript
- 
-//
-app.set(name, value)      //set an Environment variable
-app.get(name)             //get an Environment variable
-app.engine(ext, callback) //define template engine for spacific file-type rendering 
-app.locals                //send **application-level** variable to all rendered templates
-/*  Handle HTTP request: */
-//  map requests for action using http filters: (http VERB  / url path / url parameters)
-app.use([path], callback)                 //create an Express middleware
-app.VERB(path, [callback], callback)      
-app.route(path).VERB()                    
-app.param([name], callback)               
-```
+A: [yes](https://github.com/strongloop/express/blob/master/test/res.download.js)
+
+
 
 **Request object:** 
 
 **Q:** how to query a JSON property ? 
 
 ```javascript
-//options:
-//+ req.query , req.params, req.body 
-//+ req.host, req.ip, req.path
-//req.cookies     //it can be used with the middleware: cookieParser() to retrieve cookies sent by a user-agent
-//Example:
 req.param(name) //it can be used to query a JSON object()
-
 ```
 
 
@@ -66,13 +49,12 @@ req.param(name) //it can be used to query a JSON object()
 **Q:** how to set a cookie property ? 
 
 ```javascript
-//options:
-//+ res.redirect , res.status, res.set , res.send , res.json , res.render
 //Example:
-res.cookie(name, value, [options]) 
 //using the options parameter we can configure/set cookie properties,
-//such as: [ .. , maxAge: 5 ,  .. ] 
+//such as: [ .. , maxAge: 5 ,  .. ]
+res.cookie(name, value, [options]) 
 ```
+ 
 
 **Q:** how to configure express to exit if an http response is 404 ?
 
