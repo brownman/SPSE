@@ -12,7 +12,9 @@ A: supply a MVC structure for a Node.js application
 
 Express Objects:
 -----
-- **Application object:** configure the application
+
+
+**Application object:** configure the application
 
 ```javascript
 app.set(name, value)      //set an Environment variable
