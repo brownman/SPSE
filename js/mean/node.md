@@ -21,7 +21,8 @@ questions:
 
   **Q:** how to build a node.js based application ?
  
-- Example: node.js app - which uses Connect middleware 
+- **Example:** node.js app - which uses Connect middleware 
+
 ```javascript
 var connect = request('connect');
 /*ectivating the closure*/
