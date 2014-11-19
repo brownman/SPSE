@@ -112,6 +112,37 @@ req.send('hello ' + name);
 /*  the middlewares chain:  */
 app.get('/', hasName, sayHello);
 ```
+
+**Q:** how to configure Express to respond to a http request: ( VERB:'get' , PATH:'/' )
+ 
+A:  Edit: server.js
+
+```javascript
+//create a new Express Object and 
+var express = require('./config/express');
+var app = express();
+app.listen(3000);
+module.exports = app;
+//the server is running..
+```
+
+A: Edit: config/express.js
+
+```javascript
+//bootstrap the Express Object to use a router file
+require('../app/routes/index.server.routes.js')(app);
+```
+
+- the routing file:
+```javascript
+//app/routes/index.server.routes.js
+module.exports = function(app){
+var index = require('../controllers/index.server.controller');
+app.get('/', index.render)
+//the config/express.js
+};
+```
+
 - configure sessions
 - serving static files
 - rendering ejs views
