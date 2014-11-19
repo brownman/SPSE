@@ -152,8 +152,8 @@ app.get('/', index.render)
 ----
 
 
-[security](http://www.slideshare.net/d0cent/nodejs-security)
-[REST API](http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/)
+- [security](http://www.slideshare.net/d0cent/nodejs-security)
+- [REST API](http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/)
 
 to be covered NEXT:
 ---
