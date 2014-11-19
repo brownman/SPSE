@@ -123,15 +123,19 @@ app.get('/', hasName, sayHello);
 
 ```javascript
 //bootstrap the Express Object to use a router file
-var express = require('express');
-var app = express() //Initialize the npm module: Express
-require('../app/routes/index.server.routes.js')(app);
+module.exports = function(){
+  var express = require('express');
+  var app = express() //Initialize the npm module: Express
+  require('../app/routes/index.server.routes.js')(app);
+  return app;
+};
 ```
 
 - server.js
 
 ```javascript
 //create a new Express Object and 
+
 var express = require('./config/express');      //
 var app = express();
 app.listen(3000);
