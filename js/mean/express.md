@@ -114,24 +114,29 @@ app.get('/', hasName, sayHello);
 ```
 
 **Q:** how to configure Express to respond to a http request: ( VERB:'get' , PATH:'/' )
- 
-A:  Edit: server.js
+**Q:** what is the different between 'var app = express()' on the files: server.js , express.js
+**Q:** what will happend if express.js will include: require(**./**express) ?
+
+A:  config/express.js
+
+```javascript
+//bootstrap the Express Object to use a router file
+var express = require('express');
+var app = express() //Initialize the npm module: Express
+require('../app/routes/index.server.routes.js')(app);
+```
+
+A: server.js
 
 ```javascript
 //create a new Express Object and 
-var express = require('./config/express');
+var express = require('./config/express');      //
 var app = express();
 app.listen(3000);
 module.exports = app;
 //the server is running..
 ```
-
-A: Edit: config/express.js
-
-```javascript
-//bootstrap the Express Object to use a router file
-require('../app/routes/index.server.routes.js')(app);
-```
+ 
 
 - the routing file:
 ```javascript
