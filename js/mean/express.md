@@ -51,11 +51,11 @@ res.cookie(name, value, [options])
 //such as: [ .. , maxAge: 5 ,  .. ] 
 
 res.send() 
-//used for non-streaming responses, 
+//is used for non-streaming responses, 
 //do alot of background jobs, 
 //such as: responding with the proper cache headers
 ```
 
 **pupular Express middlewares:**
-- morgan: HTTP request logger 
+- Morgan: HTTP request logger 
 - Session: support for persistant sessions
