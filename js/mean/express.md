@@ -108,7 +108,7 @@ app.listen(3000);
 
 **Q:** how to configure Express to respond to a http request: ( VERB:'get' , PATH:'/' )
 
-**Q:** what is the different between 'var app = express()' on the files: server.js , express.js
+**Q:** what is the different between **'var app = express()'** in the files: server.js , express.js
 
 **Q:** what will happend if express.js will include: require('./express') ?
 
@@ -151,10 +151,15 @@ app.get('/', index.render)
 ```
 ----
 
+
+[security](http://www.slideshare.net/d0cent/nodejs-security)
+[REST API](http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/)
+
+to be covered NEXT:
+---
 - configure sessions
 - serving static files
 - rendering ejs views
 - configure the view system
 - env configuration files
-
 
