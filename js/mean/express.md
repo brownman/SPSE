@@ -119,7 +119,7 @@ app.get('/', hasName, sayHello);
 
 **Q:** what will happend if express.js will include: require('./express') ?
 
-A:  config/express.js
+- config/express.js
 
 ```javascript
 //bootstrap the Express Object to use a router file
@@ -128,7 +128,7 @@ var app = express() //Initialize the npm module: Express
 require('../app/routes/index.server.routes.js')(app);
 ```
 
-A: server.js
+- server.js
 
 ```javascript
 //create a new Express Object and 
