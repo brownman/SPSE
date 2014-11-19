@@ -8,6 +8,7 @@
    *  [MEAN.io](js/mean/README.md)
        * [debugging](js/mean/debugging.md)
        * [testing](js/mean/testing.md)
+       * [node.js](js/mean/node.md)
 * [Python](python/sources.md)
    * [Basics](python/basics/README.md)
        * [variables](python/basics/variables.md)
