@@ -15,7 +15,7 @@ Express Objects:
 -----
 **Express process:**
 
-**Q:** how to exit the express application when an [error](http://expressjs.com/2x/guide.html#error-handling) occures ?
+**Q:** how to exit the Express application when an [error](http://expressjs.com/2x/guide.html#error-handling) occures ?
 
 ```javascript
 process.on('uncaughtException', function (err) {
@@ -27,9 +27,13 @@ process.on('uncaughtException', function (err) {
 
 **Application object:** configure the application
 
-**Q:** how to run set express to exit if http response is 404 ?
+**Q:** how to configure express for download an .html file ?  
+
+A: __?__
 
 ```javascript
+ 
+//
 app.set(name, value)      //set an Environment variable
 app.get(name)             //get an Environment variable
 app.engine(ext, callback) //define template engine for spacific file-type rendering 
@@ -50,9 +54,10 @@ app.param([name], callback)
 //options:
 //+ req.query , req.params, req.body 
 //+ req.host, req.ip, req.path
+//req.cookies     //it can be used with the middleware: cookieParser() to retrieve cookies sent by a user-agent
 //Example:
 req.param(name) //it can be used to query a JSON object()
-req.cookies     //it can be used with the middleware: cookieParser() to retrieve cookies sent by a user-agent
+
 ```
 
 
@@ -67,12 +72,14 @@ req.cookies     //it can be used with the middleware: cookieParser() to retrieve
 res.cookie(name, value, [options]) 
 //using the options parameter we can configure/set cookie properties,
 //such as: [ .. , maxAge: 5 ,  .. ] 
-
-res.send() 
-//is used for non-streaming responses, 
-//do alot of background jobs, 
-//such as: responding with the proper cache headers
 ```
+
+**Q:** how to configure express to exit if an http response is 404 ?
+```javascript
+// __?__
+```
+
+
 
 **pupular Express middlewares:**
 - Morgan: HTTP request logger 
