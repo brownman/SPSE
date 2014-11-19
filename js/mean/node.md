@@ -3,8 +3,8 @@ Node.js
 
 questions:
 ----
-  **Q:**  What is Node.js **spaciality** ?
-  A:  The server is **none-blocking**: request being qued and handled one after another.
+ **Q:**  What is Node.js **spaciality** ?
+ A:  The server is **none-blocking**: request being qued and handled one after another.
 
   **Q:**  Why is Node.js so **fast** ?
   A:  its code is a compiled binary (using **V8 engine**) 
