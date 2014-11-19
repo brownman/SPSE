@@ -14,6 +14,7 @@ A: supply a MVC structure for a Node.js application
 Express Objects:
 -----
 **Express process:**
+
 **Q:** how to exit the express application when an [error](http://expressjs.com/2x/guide.html#error-handling) occures ?
 
 ```javascript
@@ -25,6 +26,7 @@ process.on('uncaughtException', function (err) {
 ```
 
 **Application object:** configure the application
+
 **Q:** how to run set express to exit if http response is 404 ?
 
 ```javascript
