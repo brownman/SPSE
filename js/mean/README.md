@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/brownman/meanio_user_experience.svg?branch=master)](https://travis-ci.org/brownman/meanio_user_experience)
+
 Questions first:
 ----
 - what is mean.io ?
