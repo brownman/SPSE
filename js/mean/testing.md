@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/linnovate/mean.svg)](https://travis-ci.org/linnovate/mean)
+
 Testing
 ====
 
