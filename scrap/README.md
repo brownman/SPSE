@@ -11,7 +11,7 @@ Q: why do it ?
 
 Q: how to do it ?
 - client side: get the data using AJAX, filter it using selectors.
-- server side: use a dedicated scraping framework / utilize javascript REPL tool
+- server side: use:  a dedicated scraping framework /  javascript REPL tool
 
 **Static scraping:**
 -----
