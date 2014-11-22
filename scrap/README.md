@@ -1,4 +1,5 @@
-scraping
+[![Build Status](https://travis-ci.org/brownman/scraping.svg?branch=master)](https://travis-ci.org/brownman/scraping)
+[scraping](https://github.com/brownman/scraping)
 ====
 
 ***metaphor:*** the user who visit a web-page is like a pacman in a maze.
@@ -36,4 +37,3 @@ Q: how to do it ?
 - all the knowledge is already out there - but not always accessible or comfortable.
 - user create custom queries and are able to share them
 
-[![Build Status](https://travis-ci.org/brownman/scrapping.svg?branch=master)](https://travis-ci.org/brownman/scrapping)
