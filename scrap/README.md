@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/brownman/scrapping.svg?branch=master)](https://travis-ci.org/brownman/scrapping)
-
 scraping
 ====
 
@@ -37,3 +35,5 @@ Q: how to do it ?
 - scraping queries become a useful resource 
 - all the knowledge is already out there - but not always accessible or comfortable.
 - user create custom queries and are able to share them
+
+[![Build Status](https://travis-ci.org/brownman/scrapping.svg?branch=master)](https://travis-ci.org/brownman/scrapping)
