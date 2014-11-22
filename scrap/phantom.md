@@ -1,4 +1,4 @@
-phantomjs
+phantom
 ----
 
 - using jquery selectors:
