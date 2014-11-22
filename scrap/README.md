@@ -6,10 +6,10 @@ scraping
 - PACMAN: the user who visit a web-site
 - TREASURE: the knowledge we look for
 - PREDATORS: the ads
-- SUPER-POWER: the user can "cheat" the game by:
-* avoid the predetors = installing an Anti-Ads browser extension.
-* transform a complext maze to simple one = scraping the web-site data
-
+* SUPER-POWER: the user can "cheat" the game by:
+  * avoid the predetors = installing an Anti-Ads browser extension.
+  * transform a complext maze to simple one = scraping the web-site data
+   
 questions:
 ---
 Q: what is it ?
