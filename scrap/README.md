@@ -7,8 +7,8 @@ scraping
 - TREASURE: the knowledge we look for
 - PREDATORS: the ads
 - SUPER-POWER: the user can "cheat" the game by:
--- avoid the predetors = installing an Anti-Ads browser extension.
--- transform a complext maze to simple one = scraping the web-site data
+* avoid the predetors = installing an Anti-Ads browser extension.
+* transform a complext maze to simple one = scraping the web-site data
 
 questions:
 ---
