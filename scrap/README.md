@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/brownman/scrapping.svg?branch=master)](https://travis-ci.org/brownman/scrapping)
+
 scraping
 ====
 
