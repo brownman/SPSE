@@ -1,7 +1,7 @@
 scraping
 ====
 
-*metaphor:* the user who visit a web-page is like a pacman in a maze.
+***metaphor:*** the user who visit a web-page is like a pacman in a maze.
 
 -----
 - PACMAN: the user who visit a web-site
