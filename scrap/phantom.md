@@ -23,3 +23,5 @@ page.open("http://www.phantomjs.org", function(status) {
     }
 });
 ```
+[![Build Status](https://travis-ci.org/ariya/phantomjs.svg?branch=master)](https://travis-ci.org/ariya/phantomjs)
+- [examples](https://github.com/ariya/phantomjs/tree/master/examples)
