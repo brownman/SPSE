@@ -1,12 +1,14 @@
 scraping
 ====
-metaphor: 
+
+**metaphor:** the user who visit a web-page is like a pacman in a maze.
+-----
 - PACMAN: the user who visit a web-site
-- PREDATORS: the ads
 - TREASURE: the knowledge we look for
+- PREDATORS: the ads
 - SUPER-POWER: the user can "cheat" the game by:
-- installing an Anti-Ads browser extension.
-- avoid the Pacman maze by scraping
+-- avoid the predetors = installing an Anti-Ads browser extension.
+-- transform a complext maze to simple one = scraping the web-site data
 
 questions:
 ---
