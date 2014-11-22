@@ -1,8 +1,6 @@
 # Summary
 * [scraping](scrap/README.md)
-   * [sources](scrap/sources.md)
-   * [intro](scrap/intro.md)
-   * [motivation](scrap/motivation.md)
+   * [phantom](scrap/phantom.md)
 * [javascript](js/sources.md)
    *  [Basics](js/basics/README.md)
    *  [Angular.js](js/angular/README.md)
