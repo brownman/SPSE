@@ -29,4 +29,3 @@
        * [Example: use sqlite3](python/basics/sqlite.md)
    * [System Programming](python/system/README.md)
       * [file_operations](python/system/file_operations.md)
-   
