@@ -19,3 +19,4 @@ Why ?
 
 - [home](https://github.com/brownman/ofer_asks)
 - [gh-pages](http://brownman.github.io/ofer_asks)
+- [config](https://www.gitbook.com/book/brownman/ofer_asks/dashboard)
