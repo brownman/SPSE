@@ -1,6 +1,6 @@
 Gitlab
 ====
-- **goal:** figuring out how to use its C.I project !
+- **goal:** figuring out how to use the **Gitlab C.I** project !
 
 
 questions
