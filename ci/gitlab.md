@@ -2,9 +2,22 @@
 
 [gitlab ci](https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master)
 ====
-- x
+
+questions:
+---
+- what is a runner ?
+- how to add a runner instance ?
 
 
-installl runner
+
+[install runner](https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master/README.md)
 -----
-- https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master/README.md
+- install apt deps
+- install ruby
+- install gems
+
+how to connect the runner to the C.I server?
+----
+* update env vars:
+  * CI_SERVER_URL
+  * REGISTRATION_TOKEN
