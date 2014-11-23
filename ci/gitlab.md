@@ -3,24 +3,16 @@
 
 questions:
 ---
-- what is a runner ?
-- how to add a runner instance ?
+- what is the workflow between a C.I server and a runner instance ?
 
 
-
+**Q:** how to install a new runner ?
 [install runner](https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master/README.md)
------
-- install apt deps
-- install ruby
-- install gems
 
-Q: how to connect a runner instance to the C.I server?
-----
+**Q:** how to connect a runner instance to the C.I server?
 * update env vars:
   * CI_SERVER_URL
   * REGISTRATION_TOKEN
 
-Q: how to add new build script to the runner  ?
-----
--  x
-
+**Q:** how to add new build script to the runner  ?
+- ?
