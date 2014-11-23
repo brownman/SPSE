@@ -1,6 +1,8 @@
 # Summary
 * [scraping](scrap/README.md)
    * [phantom](scrap/phantom.md)
+* [security](security/README.md)
+   * [encryption](security/encryption.md) 
 * [javascript](js/sources.md)
    *  [Basics](js/basics/README.md)
    *  [Angular.js](js/angular/README.md)
