@@ -1,19 +1,15 @@
-[gitlab ci](https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master)
+Gitlab
 ====
+- **goal:** figuring out how to use its C.I project !
 
-questions:
+
+questions
 ---
-- what is the workflow between a C.I server and a runner instance ?
+**Q:** how to configure a new C.I server ?
+- [HOWTO](https://gitlab.com/gitlab-org/gitlab-ci/tree/master)
 
-----
+**Q:** how to add a runner  ?
+- [setting a new runner instance](https://github.com/brownman/CI_RUNNER)
 
-**Q:** how to install a new runner ?
-[install runner](https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master/README.md)
-
-**Q:** how to connect a runner instance to the C.I server?
-* update env vars:
-  * CI_SERVER_URL
-  * REGISTRATION_TOKEN
-
-**Q:** how to add new build script to the runner  ?
+**Q:** how to customize a build-script ?
 - ?
