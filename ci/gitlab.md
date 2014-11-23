@@ -21,3 +21,8 @@ how to connect the runner to the C.I server?
 * update env vars:
   * CI_SERVER_URL
   * REGISTRATION_TOKEN
+
+what the runner should do ?
+----
+-  
+- 
