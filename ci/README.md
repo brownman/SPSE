@@ -1,6 +1,6 @@
-C.I - using Gitlab
+C.I 
 ====
-
+- **goal:** playing with gitlab.ci 
 
 questions
 ---
