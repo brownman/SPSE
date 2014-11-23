@@ -7,5 +7,5 @@ questions
 Q: how to configure a new C.I server ?
 - ?
 
-- how to add a runner  ?
+Q: how to add a runner  ?
 - [setting a new runner instance](https://github.com/brownman/CI_MACHINE)
