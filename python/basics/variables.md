@@ -1,15 +1,19 @@
-Lesson 2
-----
+Variables
+====
 
 
-WTF ?
------
+### Q: what are these creatures ?
+```
 - variable
 - object
 - reference
+```
+A: variable is a name which reference to a memory object which assosiated to a data-type.
 
-Q: assignment var to var
------
+----
+
+### Q: assignment of one variable to another variable
+#### maybe: copies content ? reference ? generate pointer to a pointer ?
 ```python
 var2=0
 var1=var2
@@ -20,9 +24,9 @@ print var1
 ```
 A: assignment var to var only copy the reference - doesn't create a new one !
 
-
-Q: what is the data type of an already signed variable ?
 -----
+
+### Q: what is the data type of an already signed variable ?
 ```python
 #example:
 #define a variable and make it point to a memory location which holds a string 
@@ -35,3 +39,4 @@ hex(id(name))
 name.__repr___
 ```
 A: variable consist of a name and a memory reference - so variable is not a string or a number but an address !
+
