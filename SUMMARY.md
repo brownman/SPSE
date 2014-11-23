@@ -1,5 +1,5 @@
 # Summary
-* [CI](ci/README.md)
+* [C.I](ci/README.md)
    * [gitlab](ci/gitlab.md)
 * [scraping](scrap/README.md)
    * [phantom](scrap/phantom.md)
