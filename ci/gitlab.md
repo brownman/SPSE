@@ -1,5 +1,3 @@
-[![build status](https://ci.gitlab.org/projects/8/status.png?ref=master)](https://ci.gitlab.org/projects/8?ref=master)
-
 [gitlab ci](https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master)
 ====
 
@@ -16,13 +14,13 @@ questions:
 - install ruby
 - install gems
 
-how to connect the runner to the C.I server?
+Q: how to connect a runner instance to the C.I server?
 ----
 * update env vars:
   * CI_SERVER_URL
   * REGISTRATION_TOKEN
 
-what the runner should do ?
+Q: how to add new build script to the runner  ?
 ----
--  
-- 
+-  x
+
