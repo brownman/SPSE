@@ -5,7 +5,7 @@ the build script
 questions
 ----
 **Q:** what's going on after a user made a new .git push request ?
-- x
+- [link](https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master/lib/build.rb#L96)
 
 **Q:** what's happend before the runner runs the user's build script ?
 ```bash
