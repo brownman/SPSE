@@ -5,6 +5,7 @@ questions:
 ---
 - what is the workflow between a C.I server and a runner instance ?
 
+----
 
 **Q:** how to install a new runner ?
 [install runner](https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master/README.md)
