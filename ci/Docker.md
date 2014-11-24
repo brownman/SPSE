@@ -1,6 +1,6 @@
 Docker 
 ====
-- [as ci-runner](https://github.com/sameersbn/docker-gitlab-ci-runner)
+[as ci-runner](https://github.com/sameersbn/docker-gitlab-ci-runner)
 ------
 
 questions:
