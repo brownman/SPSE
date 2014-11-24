@@ -17,3 +17,4 @@ answers
 updating Dockerfile
 ----
 - [link](https://github.com/ufirstgroup/gitlab-ci-runner-nodejs/commits/master)
+- [a fork of mean-Docker](https://github.com/shadowsyntax/Docker_nearStack/blob/master/Dockerfile)
