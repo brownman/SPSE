@@ -8,11 +8,13 @@ Docker
 
 questions:
 -----
+**Q:** how to test a docker image using travis C.I ?
+- [link](https://github.com/lukecyca/travis-docker-example/network)
 
-Q: what is the C.I workflow - when does the Docker file is being run and how it reports the exit status ?
+**Q:** what is the C.I workflow - when does the Docker file is being run and how it reports the exit status ?
 - x
 
-Q: how to create a Docker file for creating an environment for testing MEAN.io packages ?
+**Q:** how to create a Docker file for creating an environment for testing MEAN.io packages ?
 - [work in progress](https://registry.hub.docker.com/u/brownman/gitlab-ci-runner-nodejs/)
 
 **Q:** how to inspect the container's logs ?
