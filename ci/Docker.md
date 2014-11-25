@@ -20,10 +20,11 @@ Q: how to create a Docker file for creating an environment for testing MEAN.io p
 - [local](http://docs.docker.com/userguide/dockerlinks/)
 
 **Q:** how to interact with a container ?
-- [link](http://docs.docker.com/articles/basics/#running-an-interactive-shell)
+- [interactive](http://docs.docker.com/articles/basics/#running-an-interactive-shell)
 ```bash
  sudo docker run -i -t ubuntu /bin/bash
 ```
+- [cli](http://docs.docker.com/reference/commandline/cli/#examples_1)
 
 **Q:** which linux box is the lightest  ?
 - [link](http://www.busybox.net/live_bbox/live_bbox.html)
