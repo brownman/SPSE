@@ -9,12 +9,12 @@ Q: what is the C.I workflow - when does the Docker file is being run and how it 
 - x
 
 Q: how to create a Docker file for creating an environment for testing MEAN.io packages ?
-- [link](https://registry.hub.docker.com/u/brownman/gitlab-ci-runner-nodejs/)
+- [work in progress](https://registry.hub.docker.com/u/brownman/gitlab-ci-runner-nodejs/)
 
-Q: inspecting logs (of mongodb)
-- [line](http://docs.docker.com/examples/mongodb/)
+**Q:** how to inspect the container's logs ?
+- [Example: mongodb logs](http://docs.docker.com/examples/mongodb/)
 
-Q: linking containers
+**Q:** how to link between 2 containers ?
 - [cross domain](http://docs.docker.com/articles/ambassador_pattern_linking/)
 - [local](http://docs.docker.com/userguide/dockerlinks/)
 
