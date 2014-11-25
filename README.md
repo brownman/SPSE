@@ -1,6 +1,6 @@
 
 [![Build Status](https://www.gitbook.io/button/status/book/brownman/ofer_asks)](https://www.gitbook.io/book/brownman/ofer_asks/activity)
-
+[gitbook issue report](https://github.com/GitbookIO/gitbook/issues)
 
 
 Why ?
