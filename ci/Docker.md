@@ -5,6 +5,7 @@ Docker
 
 questions:
 -----
+
 Q: what is the C.I workflow - when does the Docker file is being run and how it reports the exit status ?
 - x
 
@@ -23,6 +24,10 @@ Q: how to create a Docker file for creating an environment for testing MEAN.io p
 ```bash
  sudo docker run -i -t ubuntu /bin/bash
 ```
+
+**Q:** which linux box is the lightest  ?
+- [link](http://www.busybox.net/live_bbox/live_bbox.html)
+
 
 answers
 ---
