@@ -18,6 +18,8 @@ Q: how to create a Docker file for creating an environment for testing MEAN.io p
 - [cross domain](http://docs.docker.com/articles/ambassador_pattern_linking/)
 - [local](http://docs.docker.com/userguide/dockerlinks/)
 
+**Q:** how to interact with a container ?
+- -i
 
 answers
 ---
