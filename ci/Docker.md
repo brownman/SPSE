@@ -1,6 +1,7 @@
 Docker
 ====
-[as ci-runner](https://github.com/sameersbn/docker-gitlab-ci-runner)
+- [as ci-runner](https://github.com/sameersbn/docker-gitlab-ci-runner)
+- [builds status](https://registry.hub.docker.com/u/brownman/gitlab-ci-runner-nodejs/builds_history/87832/)
 ------
 
 questions:
