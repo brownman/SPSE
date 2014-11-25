@@ -19,7 +19,10 @@ Q: how to create a Docker file for creating an environment for testing MEAN.io p
 - [local](http://docs.docker.com/userguide/dockerlinks/)
 
 **Q:** how to interact with a container ?
-- -i
+- [link](http://docs.docker.com/articles/basics/#running-an-interactive-shell)
+```bash
+ sudo docker run -i -t ubuntu /bin/bash
+```
 
 answers
 ---
