@@ -14,6 +14,11 @@ Q: how to create a Docker file for creating an environment for testing MEAN.io p
 Q: inspecting logs (of mongodb)
 - [line](http://docs.docker.com/examples/mongodb/)
 
+Q: linking containers
+- [cross domain](http://docs.docker.com/articles/ambassador_pattern_linking/)
+- [local](http://docs.docker.com/userguide/dockerlinks/)
+
+
 answers
 ---
 - [nodejs](https://github.com/bkw/gitlab-ci-runner-nodejs)
