@@ -3,6 +3,7 @@
 [gitbook issue report](https://github.com/GitbookIO/gitbook/issues)
 
 
+
 Why ?
 ----
 #### because it is much easier to teach others then to learn alone !!!
